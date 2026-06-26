@@ -30,7 +30,7 @@ export default function PaymentPage() {
   }
 
   const handleCopyAccountNumber = () => {
-    navigator.clipboard.writeText("5770506883")
+    navigator.clipboard.writeText("2086548223")
     setCopiedAccount(true)
     setTimeout(() => setCopiedAccount(false), 2000)
   }
@@ -89,7 +89,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1">Account Number</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">5770506883</p>
+                <p className="font-bold">2086548223</p>
                 <button
                   onClick={handleCopyAccountNumber}
                   className="bg-orange-400 text-white px-3 py-1 rounded text-sm"
@@ -101,12 +101,12 @@ export default function PaymentPage() {
 
             <div>
               <p className="text-gray-700 mb-1">Bank Name</p>
-              <p className="font-bold">MONIEPONT MFB</p>
+              <p className="font-bold">KUDA</p>
             </div>
 
             <div>
               <p className="text-gray-700 mb-1">Account Name</p>
-              <p className="font-bold">OMOTOLA TOPE  AKINDASA</p>
+              <p className="font-bold">JOHN ADEWEBI</p>
             </div>
           </div>
 
