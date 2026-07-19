@@ -24,7 +24,7 @@ export default function PaymentPage() {
   }, [router])
 
   const handleCopyAmount = () => {
-    navigator.clipboard.writeText("6,250")
+    navigator.clipboard.writeText("7,250")
     setCopiedAmount(true)
     setTimeout(() => setCopiedAmount(false), 2000)
   }
@@ -101,12 +101,12 @@ export default function PaymentPage() {
 
             <div>
               <p className="text-gray-700 mb-1">Bank Name</p>
-              <p className="font-bold">MONIEPOINT MFB</p>
+              <p className="font-bold">MONIEPOIONT MFB</p>
             </div>
 
             <div>
               <p className="text-gray-700 mb-1">Account Name</p>
-              <p className="font-bold"OMOTOLA VICTORIA OWOSENI</p>
+              <p className="font-bold">OMOTOLA VICTOR OWOSENI </p>
             </div>
           </div>
 
